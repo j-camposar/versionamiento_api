@@ -1,6 +1,8 @@
-package java.com.versionamiento.version;
-import org.springframework.we.bind.annotation.*;
+package com.versionamiento.version.Controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping ("/holaMundo/api")
