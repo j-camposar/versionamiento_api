@@ -13,9 +13,9 @@ public class VersionController {
     @GetMapping("/V1")
     public String saludo(){
         return "Hola Mundo";
-        
+
     }
-    @GetMapping("despedida")
+    @GetMapping("/V1/despedida")
     public String despedida() {
         return "despedida";
     }

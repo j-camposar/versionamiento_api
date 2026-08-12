@@ -4,3 +4,4 @@
 |V1.1.1 | correccion de bug |
 |V1.2.0 | creacion de dockerfile  |
 |V1.2.1 | correccion de dockerfile  |
+|V1.2.2 | correccion de rutas  |
