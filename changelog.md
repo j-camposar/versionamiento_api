@@ -1,2 +1,3 @@
 |v1.0.0 | creacion de endpoint |
 |v1.0.1 | correccion de imports |
+|v1.1.0 | creacion de nuevo endpoint |
