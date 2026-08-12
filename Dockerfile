@@ -22,7 +22,6 @@ WORKDIR /app
 RUN addgroup -S spring && adduser -S spring -G spring
 # 4. Copiamos el artefacto construido desde la etapa anterior
 COPY --from=build /app/target/*.jar app.jar
-COPY --chown=spring:spring ./logs /app/logs 
 
 USER spring:spring
 
